@@ -6,7 +6,6 @@ public class Heroi {
     private boolean vivo = true;
     private int vitimas = 0;
     private Arma arma;
-    private Monstro monstro;
 
     public Heroi(String nome, int vida, Arma arma) {
         if (nome.length() == 0){
@@ -39,7 +38,7 @@ public class Heroi {
         if (v < 0){
             System.out.println("Valor de cura invalido!");
         }else {
-            this.vida = v;
+            this.vida += v;
         }
     }
     public void ataca(Monstro m){
