@@ -6,14 +6,11 @@ public abstract class  Animal {
     public Animal(String nome) {
         this.nome = nome;
     }
-
     public String toString(){
         return "Nome: " + this.nome;
     }
-
     public abstract void fala();
     public abstract void come();
-
     public String getNome() {
         return nome;
     }

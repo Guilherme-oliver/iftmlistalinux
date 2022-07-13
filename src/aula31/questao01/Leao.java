@@ -1,7 +1,7 @@
 package aula31.questao01;
 
 public class Leao extends Animal{
-    private int peso = 250;
+    private int peso;
 
     public Leao(int peso, String nome) {
         super(nome);
