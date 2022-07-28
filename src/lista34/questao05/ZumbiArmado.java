@@ -1,4 +1,5 @@
 package lista34.questao05;
 
-public interface ZumbiArmado {
+public interface ZumbiArmado extends Zumbi{
+    public void bate();
 }

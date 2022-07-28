@@ -14,9 +14,9 @@ public class RadioRelogio {
         this.estacao = estacao;
     }
     void avancaHora(){
-        if (horas < 24){
+        if (horas < 23){
             horas += horas + 1;
-        }else if (horas == 24){
+        }else if (horas == 23){
             horas = 0 ;
         }
     }
@@ -27,9 +27,9 @@ public class RadioRelogio {
             minutos = 0 ;
             horas = horas + 1;
         }
-        if (horas < 24){
+        if (horas < 23){
             horas += horas + 1;
-        }else if (horas >= 24){
+        }else if (horas >= 23){
             horas = 0 ;
         }
     }
