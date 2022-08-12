@@ -7,17 +7,17 @@ public class Teste {
         Funcionario ti = new Funcionario("Pedro", 2500);
         Empresa empresa = new Empresa("Tuup");
 
-        secretaria.calcBonificação();
+        secretaria.calcBonificacao();
         secretaria.calcRemuneracao();
         secretaria.getNome();
         secretaria.toString();
         System.out.println();
         gerente.getNome();
-        gerente.calcBonificação();
+        gerente.calcBonificacao();
         gerente.calcRemuneracao();
         gerente.toString();
         System.out.println();
-        ti.calcBonificação();
+        ti.calcBonificacao();
         ti.calcRemuneracao();
         ti.getNome();
         ti.toString();

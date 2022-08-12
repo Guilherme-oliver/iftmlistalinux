@@ -1,4 +1,4 @@
-package lista02;
+package lista02.questao01;
 
 public class Cachorro {
 
@@ -6,7 +6,7 @@ public class Cachorro {
     int idade = 5;
 
     void late(int vezes) {
-        if (vezes <= 0) {
+        if (vezes < 0) {
             System.out.println("Erro");
         } else {
             System.out.println("Latiu " + vezes + " vezes");

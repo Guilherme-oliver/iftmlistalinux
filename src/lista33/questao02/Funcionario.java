@@ -37,10 +37,10 @@ public class Funcionario {
     }
 
     public double calcRemuneracao(){
-        return this.salario + calcBonificação();
+        return this.salario + calcBonificacao();
     }
 
-    public double calcBonificação(){
+    public double calcBonificacao(){
         return this.salario * (10/100);
     }
 

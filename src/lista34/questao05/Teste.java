@@ -10,7 +10,7 @@ public class Teste {
         infectadoCorredor.comeCerebro();
         System.out.println();
         infectadoBatedor.bate();
-        infectadoCorredor.comeCerebro();
+        infectadoBatedor.comeCerebro();
         System.out.println();
         infectadoMestre.corre();
         infectadoMestre.bate();

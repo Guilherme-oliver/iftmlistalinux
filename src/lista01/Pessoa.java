@@ -6,21 +6,20 @@ public class Pessoa {
 
 
     public Pessoa(String nome, String oi) {
-        this.nome = nome;
+        if (nome.length() == 0){
+            System.out.println("Nome invalido!");
+        }else {
+            this.nome = nome;
+        }
     }
-
     public Pessoa(){
-
     }
 
     public String getNome() {
         return nome;
     }
-
-
     public void oi(){
         System.out.println(nome + " Oi");
-
     }
 
     public void responde(){
@@ -40,6 +39,5 @@ public class Pessoa {
     }
 
     public void conversa(Integer idade1, Integer idade2){
-
     }
 }

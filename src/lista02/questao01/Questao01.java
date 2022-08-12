@@ -1,4 +1,6 @@
-package lista02;
+package lista02.questao01;
+
+import lista02.questao01.Cachorro;
 
 public class Questao01 {
     public static void main(String[] args) {

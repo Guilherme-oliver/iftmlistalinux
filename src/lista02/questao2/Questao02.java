@@ -3,7 +3,7 @@ package lista02.questao2;
 public class Questao02 {
     public static void main(String[] args) {
 
-        Retangulo retangulo01 = new Retangulo();
+        Retangulo retangulo01 = new Retangulo(20,20);
         Retangulo retangulo02 = new Retangulo();
 
         System.out.println("Retangulo 01: ");
