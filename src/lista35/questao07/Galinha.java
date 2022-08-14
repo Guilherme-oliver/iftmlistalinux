@@ -15,8 +15,7 @@ public class Galinha extends Ave{
     @Override
     public String toString(){
         String info = "";
-        info += "Nome: " + super.getNome();
-        info += "\nPeso: " + super.getPeso();
+        info += super.toString();
         info += "\nCor: " + this.cor;
         return info;
     }

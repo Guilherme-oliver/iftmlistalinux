@@ -10,14 +10,14 @@ public class Pato extends Ave implements PodeVoar{
     @Override
     public String toString(){
         String info = "";
-        info += "Nome: " + super.getNome();
+        info += "\nNome: " + super.getNome();
         info += "\nPeso: " + super.getPeso();
         info += "\nEscapadas: " + this.escapadas;
         return info;
     }
 
     public void emiteSom(){
-        System.out.println("Quack " + "\n" + toString());
+        System.out.println("\nQuack " + "\n" + toString());
     }
 
     @Override

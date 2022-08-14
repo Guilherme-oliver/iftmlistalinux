@@ -24,19 +24,16 @@ public class Pessoa {
             Galinha galinha = (Galinha) ave;
             if (galinha.getPeso() < 1){
                 System.out.println(toString() + "\nTentou capturar a ave");
-                System.out.println(galinha.toString());
                 galinha.emiteSom();
                 System.out.println("Não pode ser capturada!");
             }else {
                 System.out.println(toString() + "\nTentou capturar a ave");
-                System.out.println(galinha.toString());
                 this.aves++;
                 galinha.emiteSom();
                 System.out.println("A pessoa capturou a ave!");            }
         } else if (ave instanceof Pato) {
             Pato pato = (Pato) ave;
             System.out.println(toString() + "\nTentou capturar a ave");
-            System.out.println(pato.toString());
             pato.emiteSom();
             pato.voa();
             System.out.println("Ave escapou");

@@ -5,9 +5,7 @@ public class Ave {
     private int peso;
 
     public Ave(String nome, int peso) {
-        if (nome.length() == 0){
-            this.nome = nome;
-        }
+        this.nome = nome;
         this.peso = peso;
     }
 
@@ -17,7 +15,7 @@ public class Ave {
 
     public String toString(){
         String info = "";
-        info += "Nome: " + this.nome;
+        info += "\nNome: " + this.nome;
         info += "\nPeso: " + this.peso;
         return info;
     }
