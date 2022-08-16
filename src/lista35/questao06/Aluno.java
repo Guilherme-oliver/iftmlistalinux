@@ -1,6 +1,6 @@
 package lista35.questao06;
 
-public class Aluno extends Pessoa implements Usuario{
+public final class Aluno extends Pessoa implements Usuario{
     private String curso;
     private Login login;
 
@@ -20,7 +20,7 @@ public class Aluno extends Pessoa implements Usuario{
 
     @Override
     public void seApresenta(){
-        System.out.println(toString() + " Aluno se apresenta");
+        System.out.println(getNome() + " Aluno se apresenta" + " do curso de " + this.curso);
     }
 
     @Override

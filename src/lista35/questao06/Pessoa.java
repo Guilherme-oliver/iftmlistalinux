@@ -1,6 +1,6 @@
 package lista35.questao06;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
 
@@ -20,7 +20,5 @@ public class Pessoa {
         return info;
     }
 
-    public void seApresenta(){
-
-    }
+    public abstract void seApresenta();
 }
