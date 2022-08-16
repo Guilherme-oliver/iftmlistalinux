@@ -49,7 +49,7 @@ public class Professor extends Pessoa implements Servidor, Usuario{
 
     @Override
     public boolean autenticacao(String usuario, String senha) {
-        if (login.valida(usuario, senha)) {
+        if (login.valida(senha,usuario)) {
             return true;
         } else {
             return false;

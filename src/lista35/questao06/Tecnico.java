@@ -18,16 +18,16 @@ public class Tecnico extends Pessoa implements Servidor{
 
     @Override
     public void trabalha() {
-        System.out.println(toString() + " Se apresenta no seu posto de trabalho");
+        System.out.println(getNome() + " Se apresenta no seu posto de trabalho");
     }
 
     @Override
     public void seCapacita() {
-        System.out.println(toString() + " O Técnico realiza uma capacitação técnica");
+        System.out.println(getNome() + " O Técnico realiza uma capacitação técnica");
     }
 
     @Override
     public void seApresenta(){
-        System.out.println(toString() + " O Técnico se apresenta");
+        System.out.println(getNome() + " O Técnico se apresenta");
     }
 }

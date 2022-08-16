@@ -4,8 +4,9 @@ public class VirtualIF {
     private static int totalrelatorios = 0;
     private static int totalacessos = 0;
 
-    public void loga(Usuario u, String usuario, String senha){
-        if (u.autenticacao(usuario, senha) == true){
+    public static void loga(Usuario u, String usuario, String senha){
+
+        if (u.autenticacao(usuario, senha)){
             totalacessos++;
             System.out.println("Módulo aberto");
         }else {
@@ -13,12 +14,12 @@ public class VirtualIF {
         }
     }
 
-    public void geraRelatorio(Pessoa pessoa){
+    public static void geraRelatorio(Pessoa pessoa){
         totalrelatorios++;
         System.out.println(pessoa.toString());
     }
 
-    public void mostraInfo(){
+    public static void mostraInfo(){
         System.out.println("Total de acessos: " + totalacessos);
         System.out.println("Total de relatorios: " + totalrelatorios);
 

@@ -1,5 +1,5 @@
 package lista35.questao06;
 
-public interface Servidor extends Funcionario{
-    public void seCapacita();
+public abstract interface Servidor extends Funcionario{
+    public abstract void seCapacita();
 }

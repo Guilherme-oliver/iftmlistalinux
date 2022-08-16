@@ -25,7 +25,7 @@ public final class Aluno extends Pessoa implements Usuario{
 
     @Override
     public boolean autenticacao(String usuario, String senha) {
-        if (login.valida(usuario, senha) == true){
+        if (login.valida(senha,usuario)){
             return true;
         }else {
             return false;

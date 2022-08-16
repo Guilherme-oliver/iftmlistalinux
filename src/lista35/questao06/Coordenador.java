@@ -21,6 +21,6 @@ public final class Coordenador extends Professor{
 
     @Override
     public void trabalha(){
-        System.out.println(getNome() + " O coordenador coordenou.");
+        System.out.println(getNome() + " ,coordenador coordenou.");
     }
 }
