@@ -1,6 +1,6 @@
 package lista35.questao02;
 
-public class Cliente implements Usuario{
+public final class Cliente implements Usuario{
     private String nome;
     private Login login;
 

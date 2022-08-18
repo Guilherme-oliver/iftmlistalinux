@@ -1,6 +1,6 @@
 package lista35.questao03;
 
-public class Galinha implements Herbivoro {
+public final class Galinha implements Herbivoro {
     @Override
     public void fala() {
         System.out.println("Cocorico");

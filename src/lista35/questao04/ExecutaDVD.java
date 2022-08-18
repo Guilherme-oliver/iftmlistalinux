@@ -1,5 +1,5 @@
 package lista35.questao04;
 
-public interface ExecutaDVD {
-    public void executa(DVD dvd);
+public abstract interface ExecutaDVD {
+    public abstract void executa(DVD dvd);
 }

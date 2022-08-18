@@ -1,6 +1,6 @@
 package lista35.questao01;
 
-public class PessoaFisica extends Pessoa implements Contribuinte{
+public final class PessoaFisica extends Pessoa implements Contribuinte{
 
     private String cpf;
     private double salario;
@@ -22,7 +22,7 @@ public class PessoaFisica extends Pessoa implements Contribuinte{
 
     public String toString(){
         String info = "";
-        info += super.toString();
+        info += "\nNome: " + getNome();
         info += "\nCPF: " + this.cpf;
         info += "\nSalario: " + this.salario;
         return info;

@@ -1,6 +1,6 @@
 package lista35.questao07;
 
-public class Ave {
+public abstract class Ave {
     private String nome;
     private int peso;
 
@@ -9,9 +9,7 @@ public class Ave {
         this.peso = peso;
     }
 
-    public void emiteSom(){
-
-    }
+    public abstract void emiteSom();
 
     public String toString(){
         String info = "";

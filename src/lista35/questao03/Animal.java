@@ -1,5 +1,5 @@
 package lista35.questao03;
 
-public interface Animal {
-    public void fala();
+public abstract interface Animal {
+    public abstract void fala();
 }

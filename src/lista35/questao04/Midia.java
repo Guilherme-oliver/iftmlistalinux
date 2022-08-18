@@ -1,6 +1,6 @@
 package lista35.questao04;
 
-public class Midia {
+public abstract class Midia {
     private String autor;
 
     public Midia(String autor) {
@@ -15,6 +15,5 @@ public class Midia {
         return autor;
     }
 
-    public void roda() {
-    }
+    public abstract void roda();
 }

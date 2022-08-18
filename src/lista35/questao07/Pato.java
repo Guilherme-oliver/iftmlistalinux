@@ -1,6 +1,6 @@
 package lista35.questao07;
 
-public class Pato extends Ave implements PodeVoar{
+public final class Pato extends Ave implements PodeVoar{
     private int escapadas = 0;
 
     public Pato(String nome, int peso) {

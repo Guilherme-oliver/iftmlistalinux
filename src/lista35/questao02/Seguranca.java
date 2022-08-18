@@ -1,6 +1,6 @@
 package lista35.questao02;
 
-public class Seguranca extends Funcionario{
+public final class Seguranca extends Funcionario{
     private boolean armado;
 
     public Seguranca(String nome, double salario, boolean armado) {

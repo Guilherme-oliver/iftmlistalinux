@@ -1,6 +1,6 @@
 package lista35.questao04;
 
-public class CD extends Midia{
+public final class CD extends Midia{
     private String musica;
 
     public CD(String autor, String musica) {

@@ -1,6 +1,6 @@
 package lista35.questao02;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private double salario;
 

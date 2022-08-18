@@ -1,6 +1,6 @@
 package lista35.questao07;
 
-public class Pessoa {
+public final class Pessoa {
     private String nome;
     private int aves = 0;
 

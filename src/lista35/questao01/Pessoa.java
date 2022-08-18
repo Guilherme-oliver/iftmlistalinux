@@ -1,6 +1,6 @@
 package lista35.questao01;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
 
     public Pessoa(String nome) {
@@ -11,9 +11,7 @@ public class Pessoa {
         }
     }
 
-    public String toString(){
-        return "Nome: " + this.nome;
-    }
+    public abstract String toString();
 
     public String getNome(){
         return this.nome;

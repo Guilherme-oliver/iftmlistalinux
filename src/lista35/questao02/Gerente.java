@@ -1,6 +1,6 @@
 package lista35.questao02;
 
-public class Gerente extends Funcionario implements Usuario{
+public final class Gerente extends Funcionario implements Usuario{
     private String sala;
     private Login login;
 

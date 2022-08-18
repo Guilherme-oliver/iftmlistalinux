@@ -1,6 +1,6 @@
 package lista35.questao04;
 
-public class Aparelho {
+public abstract class Aparelho {
     private String marca;
 
     public Aparelho(String marca) {

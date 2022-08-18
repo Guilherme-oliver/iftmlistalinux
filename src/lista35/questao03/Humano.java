@@ -1,6 +1,6 @@
 package lista35.questao03;
 
-public class Humano implements Herbivoro, Carnivoro{
+public final class Humano implements Herbivoro, Carnivoro{
     @Override
     public void fala() {
         System.out.println("Olá Jovem");

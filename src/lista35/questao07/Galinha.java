@@ -1,6 +1,6 @@
 package lista35.questao07;
 
-public class Galinha extends Ave{
+public final class Galinha extends Ave{
     private String cor;
 
     public Galinha(String nome, int peso, String cor) {

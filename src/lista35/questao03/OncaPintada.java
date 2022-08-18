@@ -1,6 +1,6 @@
 package lista35.questao03;
 
-public class OncaPintada implements Carnivoro{
+public final class OncaPintada implements Carnivoro{
     @Override
     public void come(Herbivoro herbivoro) {
         if (herbivoro instanceof Galinha){

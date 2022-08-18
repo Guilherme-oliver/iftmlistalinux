@@ -1,6 +1,6 @@
 package lista35.questao01;
 
-public class PessoaJuridica extends Pessoa implements Contribuinte{
+public final class PessoaJuridica extends Pessoa implements Contribuinte{
     private String cnpj;
     private double lucroreal;
     private int funcionario;
@@ -22,7 +22,7 @@ public class PessoaJuridica extends Pessoa implements Contribuinte{
     public String toString(){
         String info = "";
 
-        info += "Nome: " + super.toString();
+        info += "Nome: " + getNome();
         info += "\nCNPJ: " + this.cnpj;
         info += "\nLucro Real: " + this.lucroreal;
         info += "\nNúmero de funcionarios: " + this.funcionario;

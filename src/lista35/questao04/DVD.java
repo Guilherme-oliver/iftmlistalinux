@@ -1,6 +1,6 @@
 package lista35.questao04;
 
-public class DVD extends Midia{
+public final class DVD extends Midia{
     private String video;
     public DVD(String autor, String video) {
         super(autor);
